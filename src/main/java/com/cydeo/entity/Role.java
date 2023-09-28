@@ -13,7 +13,6 @@ import javax.persistence.Table;
 @Table(name = "roles")
 public class Role extends BaseEntity{
 
-    private Long id;
     private String description;
 
 }
